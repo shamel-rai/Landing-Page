@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    height: 500px;
+
+}
+
+.header h3 {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+    float: inline-end;
+}
+
+.content {
+    display: flex;
+}
+
+.content {
+    margin: 20px;
+    /* padding: 15px 2px; */
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.text {
+    width: 50vw;
+}
+
+.content-heading {
+    font-size: 50px;
+    padding: 100px 0 10px 300px;
+}
+
+.content-paragraph {
+    font-size: 18px;
+    margin: 0 420px 0 0;
+    padding: 0px 0 10px 300px;
+    width: 525px;
+}
+
+.Sign-up {
+    margin: 10px 0 0 296px;
+    width: 100px;
+    padding: 6px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.Sign-up:hover {
+    background-color: black;
+}
+
+.image-section {
+    width: 50vw;
+    margin: 50px 400px 0 0;
+}
+
+
+.content img {
+    padding: 15px 80px 0 0;
+    height: 300px;
+    width: auto;
+}
